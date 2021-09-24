@@ -1,0 +1,232 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* font-family: "Playfair Display", serif; */
+	font-family: "Scheherazade New", serif;
+}
+
+.brdr {
+	height: 1px;
+	background-color: #09c;
+}
+.mb-5,
+.my-5 {
+	margin-bottom: 0rem !important;
+}
+
+/* ------------ Home landing page Start ----------- */
+.landing {
+	height: 100vh;
+	background: linear-gradient(#1a1daf11, #000000), url(../images/1.jpg) left top;
+	background-size: cover;
+	/* position: relative; */
+}
+
+/* --------- navbar Start ------------ */
+.navbar {
+	background-color: rgba(137, 146, 146, 0.507);
+}
+#navbarSupportedContent button {
+	color: #09c;
+	font-size: 25px;
+	padding: 0.175rem 1.55rem;
+	margin-left: 10px !important;
+	border: 1px solid #09c;
+}
+#navbarSupportedContent button:hover {
+	color: rgb(204, 198, 198);
+	border: 1px solid antiquewhite;
+}
+
+.navbar-brand,
+.nav-link {
+	color: rgb(200, 200, 200);
+	font-size: 30px;
+	font-weight: 700;
+}
+.navbar-brand::first-letter {
+	color: #09c;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+	color: #09c;
+}
+/* --------------- navbar End  ------------------ */
+
+.landing {
+	color: antiquewhite;
+}
+
+.buttons button {
+	color: antiquewhite;
+	font-weight: 700;
+	padding: 0.775rem 1.95rem;
+}
+.buttons button:last-child {
+	border: 1px solid antiquewhite;
+	font-weight: 700;
+	margin-left: 10px !important;
+	padding: 0.775rem 1.95rem;
+}
+
+.buttons button:last-child:hover {
+	border: 1px solid #09c;
+	color: #09c;
+}
+
+.decor {
+	margin-top: 200px !important;
+}
+.decor h1 {
+	font-size: 65px;
+	letter-spacing: 1.2px;
+}
+.decor p {
+	font-size: 20px;
+}
+/* images */
+
+.gallery-images {
+	/* width: 100%; */
+	margin: 1%;
+	height: 100%;
+}
+
+.image img {
+	width: 25%;
+	min-height: 125px;
+	float: left;
+	margin: 1%;
+	cursor: pointer;
+}
+/* images */
+
+/* -------------- Home landing page End --------------------- */
+
+.movies {
+	/* height: 100%; */
+	background: linear-gradient(#000000, #fdf4f460), url(../images/31.jpg);
+	background-size: cover;
+	color: antiquewhite;
+	/* overflow: hidden; */
+}
+
+#movie h3 {
+	margin-top: 5px;
+	color: antiquewhite;
+	text-align: center;
+	font-size: 20px;
+}
+#movie:hover h3 {
+	color: #09c;
+}
+
+.caption {
+	margin-top: 1%;
+}
+
+.caption h2 {
+	font-size: 50px;
+}
+.caption h2::first-letter {
+	color: #09c;
+}
+
+.caption p {
+	font-size: 20px;
+}
+.modal-content {
+	/* background-color: rgba(0, 128, 128, 0.479); */
+	background-color: rgba(0, 153, 204, 0.829);
+	color: whitesmoke;
+}
+
+.sign {
+	text-align: center;
+	position: absolute;
+}
+
+.sing-btn {
+	position: relative;
+	left: 56%;
+	padding: 8px 26px;
+}
+.close-btn {
+	position: relative;
+	left: 55%;
+	padding: 8px 26px;
+	color: whitesmoke;
+}
+.close-btn:hover {
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 600px) {
+	.brdr {
+		height: 1px;
+		background-color: #09c;
+		margin: 90px auto;
+	}
+	.landing {
+		height: 80vh;
+	}
+
+	.decor {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.decor h1 {
+		font-size: 35px;
+		letter-spacing: 1.2px;
+	}
+	.buttons button:first-child {
+		color: antiquewhite;
+		font-weight: 700;
+		margin-top: 5px;
+		padding: 0.775rem 1.95rem;
+	}
+	.buttons button:last-child {
+		color: antiquewhite;
+		font-weight: 700;
+		margin-top: 5px;
+		padding: 0.775rem 2.39rem !important;
+	}
+	.pt-5,
+	.py-5 {
+		padding-top: 1.2rem !important;
+	}
+	.mt-5,
+	.my-5 {
+		margin-top: 1.2rem !important;
+		margin-bottom: -23px;
+	}
+	.movies {
+		padding-bottom: 100px;
+	}
+	#item {
+		margin: auto;
+		margin-top: 10px;
+		padding-top: 5px !important;
+
+		text-align: center;
+	}
+	#item h2 {
+		margin-top: 2px;
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.gallery-images {
+		margin: 28% auto;
+	}
+	.decor {
+		margin-top: 70px !important;
+	}
+	.caption {
+		margin-top: 50%;
+	}
+}
