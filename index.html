@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Scheherazade+New&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navbar   Section Start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">Cinema</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <form class="form-inline  ml-auto my-2 my-lg-0">
+            <div class="">
+                <button type="button" class="btn " data-toggle="modal" data-target="#singinModel"> Sign In </button>
+                <button type="button" class="btn " data-toggle="modal" data-target="#myModal">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </nav>
+    <!---------- Navbar   Section   End ----------->
+    <!---------- Home   Section   Start ----------->
+    <section class="landing">
+        <div class="container py-5">
+            <div class="row mt-5 pt-5">
+                <div class="decor mt-5  col-xl-4 col-lg-6  col-md-6 col-sm-12 ">
+                    <div class="w-25 brdr my-4"></div>
+                    <h1>Ex-Machina</h1>
+                    <p>Action, Drama, Sci-fi |  2021 | USA | 142 min.</p>
+                    <div class="buttons">
+                        <button type="button" class="btn btn-primary">WATCH NOW</button>
+                        <button type="button" class="btn ">+ PLAYLIST </button>
+                    </div>
+                <div class="w-100 brdr my-4"></div>
+                  </div>
+                  <div class=" mt-5 col-xl-8 col-lg-6  col-md-6 col-sm-6 col-auto">
+
+                      <div class="gallery-images">
+                  </div>
+            </div>
+        </div>
+    
+
+    <!-- ---------------- Carsol Owl -------------- -->
+      
+    </section>
+    <!---------- Home   Section   End ----------->
+
+    <!---------- Movie   Section   Start ----------->
+    <section class="movies pt-5">
+        <div class="container">
+            <div id="item" class="row mb-5 pb-4">
+              <!-- Trending Movies -->
+              <div class=" caption pt-2 col-xl-4 col-lg-6  col-md-5 col-sm-12">
+                <div class="w-25 brdr my-4"></div>
+                <h2>Trending</h2>
+                <h2>Movies</h2>
+                <h2>To watch now</h2>
+                <p>Most watched movies by days</p>
+                <div class="w-100 brdr my-4"></div>
+              </div>
+
+            </div>
+    </section>
+    <!---------- Movie   Section   End ----------->
+
+
+
+
+
+
+
+
+
+    <!---------------------------------------------------- Sing Up Modal  Start ----------------------------------------->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">SIGN UP</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body ">
+            <!-- SignUp form -->
+            <div class="sing">
+                <h4 class=" text-center">Hello There!</h4>
+                <p  class=" text-center"> We're almost done. Before using our services you need to create an account.</p>
+                <label for="email"></label> User Name:
+                <input class="form-control" type="text" name="username" id="username">
+
+                <label for="email"></label> Your Email:
+                <input class="form-control" type="email" name="email" id="email">
+
+                <label for="password"></label> Your Password:
+                <input class="form-control" type="password" name="password" id="password">
+
+                <label for="password"></label> confirm Password:
+                <input class="form-control" type="password" name="password" id="password">
+                
+                    <button class="btn my-3 close-btn " type="submit">Close</button>
+                <button class="btn btn-info sing-btn my-3 " type="submit">Sing Up</button>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Sing Up Modal  End-->
+
+ <!-- Sing In Modal  Start -->
+ <div id="singinModel" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">SIGN IN</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body ">
+            <!-- SignUp form -->
+            <div class="sing">
+                <h4 class=" text-center">Hello There!</h4>
+                <p  class=" text-center"> We're almost done. Before using our services you need to create an account.</p>
+                
+                <label for="email"></label> Your Email:
+                <input class="form-control" type="email" name="email" id="email">
+
+                <label for="password"></label> Your Password:
+                <input class="form-control" type="password" name="password" id="password">
+
+                
+                    <button class="btn my-3 close-btn " type="submit">Close</button>
+                <button class="btn btn-info sing-btn my-3 " type="submit">Sing In</button>
+                
+            </div>
+            
+        </div>
+        
+      </div>
+  
+
+  
+    </div>
+  </div>
+    <!-- Sing In Modal  End-->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
