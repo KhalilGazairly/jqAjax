@@ -106,7 +106,7 @@ body {
 
 .movies {
 	/* height: 100%; */
-	background: linear-gradient(#000000, #fdf4f460), url(../images/31.jpg);
+	background: linear-gradient(#000000, #fdf4f460), url(../images/31.jpeg);
 	background-size: cover;
 	color: antiquewhite;
 	/* overflow: hidden; */
